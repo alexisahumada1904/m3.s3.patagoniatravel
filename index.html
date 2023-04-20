@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Patagonia Travel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#">Características</a>
+          <a class="nav-link" href="#">Precios</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<Main>
+<div>
+  <h1 class="text-center text-secondary pt-4">¿Que actividad le gustaría hacer?</h1>
+</div>
+<div class="d-flex justify-content-center gap-3 pt-2">
+  <h5 class="my-auto">Actividades:</h5>
+  <div class="col-3">
+    <select id="lista" class="form-select d-flex" aria-label="Default select example">
+      <option value="1" selected>Trekking</option>
+      <option value="2">Natación</option>
+      <option value="3">Ferry</option>
+    </select>
+  </div>
+</div>
+<div class="row justify-content-center text-center align-items-center pt-5 g-2">
+  <div class="col-lg-5 col-md-7 col-sm-8 col-xs-10 mx-auto">
+    <div>
+        <div id="card"class="card rounded-1 ">
+          <img id="imagen" src="https://picsum.photos/id/688/600/400" class="img-fluid rounded-1 " alt="">
+          <div id="card_1" class="card position-absolute bg-black w-100 h-100 opacity-75 text-white rounded-1 d-none">
+          <p id="titulo" class="card-text  my-auto text-white opacity-100 fs-1">T R E K K I N G <br>
+            <span id="lugar" class="fs-5"><i class="bi bi-geo-alt"></i> Volcan Villarica</span>
+          </p>
+          </div>
+        </div>
+    </div>
+    <div>
+      <div class="card my-4">
+        <div class="card-body">
+          <p id="texto" class="card-text text-start">Modalidad de excursionismo que consiste en recorrer a pie largas distancias o zonas determinadas, generalmente de alta montaña y poco frecuentadas por el turismo convencional.<br>
+            <a href="#" class="card-link">Conocer más</a> <br>
+          </p>
+          <div class="text-start"><a name="" id="" class="btn fw-lighter bg-light rounded-0" href="#" role="button">Agendar actividad</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</Main>
+
+
+
+
+
+
+
+
+
+
+<!-- Option 1: JQuery 3.6.4 min  -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<!-- Option 2: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<!-- Option 3: Main Js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
